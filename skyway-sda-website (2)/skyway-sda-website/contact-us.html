@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us — Skyway Seventh-day Adventist Church</title>
+<meta name="description" content="Get directions, contact details, and reach out to Skyway Seventh-day Adventist Church.">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-root="." data-page="more">
+
+<div id="site-header"></div>
+
+<section class="category-banner" style="--banner-bg:linear-gradient(150deg,#6FB9E8 0%, #0B3A57 100%)">
+  <div class="container">
+    <p class="breadcrumb"><a href="index.html">Home</a> &nbsp;/&nbsp; Contact Us</p>
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you — questions, prayer requests, or a first visit. Reach out any way that's easiest.</p>
+  </div>
+</section>
+
+<main>
+  <section class="section" id="visit">
+    <div class="container" style="display:flex; gap:44px; flex-wrap:wrap;">
+      <div style="flex:1; min-width:280px;">
+        <span class="kicker">Find Us</span>
+        <h2>Our Address</h2>
+        <p style="color:var(--ink-soft);" data-editable>[Street Address], [City], [County/State], [Postal Code] — replace with your church's real address.</p>
+        <a class="btn btn-primary" href="location.html">View on Location Page</a>
+
+        <div style="margin-top:34px;">
+          <span class="kicker">Reach Us</span>
+          <h2>Contact Details</h2>
+          <div class="resource-list">
+            <div class="resource-item"><span class="r-title">Phone</span><span>[Phone Number]</span></div>
+            <div class="resource-item"><span class="r-title">Email</span><span>[email@skywaysda.org]</span></div>
+            <div class="resource-item"><span class="r-title">Office Hours</span><span>[Days, hours]</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div style="flex:1; min-width:280px;">
+        <span class="kicker">Send a Message</span>
+        <h2>Get in Touch</h2>
+        <p style="color:var(--ink-soft);">This form is a visual placeholder — connect it to your email service or form handler of choice.</p>
+        <form style="display:flex; flex-direction:column; gap:14px; margin-top:18px;" onsubmit="event.preventDefault(); alert('This is a placeholder form. Connect it to your email service to receive messages.');">
+          <div>
+            <label for="cf-name" style="font-weight:700; font-size:.9rem; display:block; margin-bottom:6px;">Full Name</label>
+            <input id="cf-name" type="text" required style="width:100%; padding:12px 14px; border:1px solid var(--line); border-radius:8px; font-family:var(--font-body); font-size:1rem;">
+          </div>
+          <div>
+            <label for="cf-email" style="font-weight:700; font-size:.9rem; display:block; margin-bottom:6px;">Email</label>
+            <input id="cf-email" type="email" required style="width:100%; padding:12px 14px; border:1px solid var(--line); border-radius:8px; font-family:var(--font-body); font-size:1rem;">
+          </div>
+          <div>
+            <label for="cf-msg" style="font-weight:700; font-size:.9rem; display:block; margin-bottom:6px;">Message</label>
+            <textarea id="cf-msg" rows="5" required style="width:100%; padding:12px 14px; border:1px solid var(--line); border-radius:8px; font-family:var(--font-body); font-size:1rem; resize:vertical;"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="align-self:flex-start;">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-tint">
+    <div class="container">
+      <div class="section-head center" style="margin-left:auto;margin-right:auto;">
+        <span class="kicker">Reach a Ministry Directly</span>
+        <h2>Contact a Department</h2>
+        <p>Have a question for a specific ministry team? Visit their page for direct resources and involvement links.</p>
+      </div>
+      <div style="text-align:center;">
+        <a class="btn btn-navy" href="departments/index.html">Browse All Departments</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="js/site.js"></script>
+</body>
+</html>
