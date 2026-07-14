@@ -1,6 +1,6 @@
 # Skyway Seventh-day Adventist Church — Website
 
-A multipage site inspired by amazingdiscoveries.org's structure (sticky nav with
+A multipage site inspired by structure (sticky nav with
 a "More" dropdown, card-grid sections, consistent footer), built specifically
 for Skyway SDA Church.
 
